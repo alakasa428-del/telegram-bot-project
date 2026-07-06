@@ -45,5 +45,7 @@ def filter_everything(message):
         bot.delete_message(message.chat.id, message.message_id)
         bot.reply_to(message, "❌ Gaali dena mana hai, rules padh le!")
 
+# Is part ko purane bot.polling ki jagah paste kar
 print("Bot is running...")
-bot.polling(none_stop=True)
+bot.infinity_polling()
+
