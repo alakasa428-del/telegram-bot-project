@@ -5,7 +5,9 @@ import google.generativeai as genai
 # Setup
 BOT_TOKEN = '8997639190:AAFobB_hL5bYClQWyAvlwI4XiZLpf4sR60U'
 # Sirf yahi naam likhna, baki sab hatade
-model = genai.GenerativeModel('gemini-1.5-flash')
+# Purane stable model par wapas jao
+model = genai.GenerativeModel('gemini-pro')
+
 
 
 bot = telebot.TeleBot(BOT_TOKEN)
