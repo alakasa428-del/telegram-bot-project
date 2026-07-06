@@ -4,8 +4,8 @@ import google.generativeai as genai
 
 # Setup
 BOT_TOKEN = '8997639190:AAFobB_hL5bYClQWyAvlwI4XiZLpf4sR60U'
-# Model ka naam change kar diya hai
-model = genai.GenerativeModel('gemini-1.5-flash') 
+# Model name ko latest version par set karo
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 bot = telebot.TeleBot(BOT_TOKEN)
 BAD_WORDS = ['gaali1', 'gaali2', 'chutiya', 'madarchod']
