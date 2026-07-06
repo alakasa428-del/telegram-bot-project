@@ -4,8 +4,8 @@ import google.generativeai as genai
 
 # Setup
 BOT_TOKEN = '8997639190:AAFobB_hL5bYClQWyAvlwI4XiZLpf4sR60U'
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-pro')
+# Model ka naam change kar diya hai
+model = genai.GenerativeModel('gemini-1.5-flash') 
 
 bot = telebot.TeleBot(BOT_TOKEN)
 BAD_WORDS = ['gaali1', 'gaali2', 'chutiya', 'madarchod']
