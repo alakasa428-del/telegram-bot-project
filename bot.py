@@ -57,5 +57,8 @@ def handle_all(message):
         except Exception as e:
             print(f"AI Error: {e}")
 
-print("Bot is running...")
-bot.infinity_polling()
+# Isse bot start hote hi purane sare connections kaat dega
+print("Bot starting...")
+bot.remove_webhook() 
+bot.infinity_polling(none_stop=True, skip_pending=True)
+
