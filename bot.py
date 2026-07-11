@@ -3,7 +3,7 @@ import os
 import google.generativeai as genai
 
 # Setup
-BOT_TOKEN = '8705410644:AAGJrA2aQL-8NhR4DXUWyoo0h7CVytXCHGM'
+BOT_TOKEN = '7730045851:AAH5RgKnC_i1uhJozqrzyEB0bsJVmHs-l5w'
 # Sirf yahi naam likhna, baki sab hatade
 # Naya tarika try karo
 model = genai.GenerativeModel('models/gemini-1.5-flash')
